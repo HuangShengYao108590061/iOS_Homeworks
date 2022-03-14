@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD24807D27D872B0004B3BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24807C27D872B0004B3BF2 /* AppDelegate.swift */; };
+		CD24807F27D872B0004B3BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24807E27D872B0004B3BF2 /* SceneDelegate.swift */; };
+		CD24808127D872B0004B3BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24808027D872B0004B3BF2 /* ViewController.swift */; };
+		CD24808427D872B0004B3BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD24808227D872B0004B3BF2 /* Main.storyboard */; };
+		CD24808627D872D6004B3BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD24808527D872D6004B3BF2 /* Assets.xcassets */; };
+		CD24808927D872D6004B3BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD24808727D872D6004B3BF2 /* LaunchScreen.storyboard */; };
+		CD24809427D872D8004B3BF2 /* cardFlippersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24809327D872D8004B3BF2 /* cardFlippersTests.swift */; };
+		CD24809E27D872D8004B3BF2 /* cardFlippersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24809D27D872D8004B3BF2 /* cardFlippersUITests.swift */; };
+		CD2480A027D872D8004B3BF2 /* cardFlippersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24809F27D872D8004B3BF2 /* cardFlippersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD24809027D872D8004B3BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD24807127D872B0004B3BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD24807827D872B0004B3BF2;
+			remoteInfo = cardFlippers;
+		};
+		CD24809A27D872D8004B3BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD24807127D872B0004B3BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD24807827D872B0004B3BF2;
+			remoteInfo = cardFlippers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD24807927D872B0004B3BF2 /* cardFlippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardFlippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD24807C27D872B0004B3BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD24807E27D872B0004B3BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD24808027D872B0004B3BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD24808327D872B0004B3BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD24808527D872D6004B3BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD24808827D872D6004B3BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD24808A27D872D6004B3BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD24808F27D872D8004B3BF2 /* cardFlippersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardFlippersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD24809327D872D8004B3BF2 /* cardFlippersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardFlippersTests.swift; sourceTree = "<group>"; };
+		CD24809927D872D8004B3BF2 /* cardFlippersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardFlippersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD24809D27D872D8004B3BF2 /* cardFlippersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardFlippersUITests.swift; sourceTree = "<group>"; };
+		CD24809F27D872D8004B3BF2 /* cardFlippersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardFlippersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD24807627D872B0004B3BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24808C27D872D8004B3BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24809627D872D8004B3BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD24807027D872B0004B3BF2 = {
+			isa = PBXGroup;
+			children = (
+				CD24807B27D872B0004B3BF2 /* cardFlippers */,
+				CD24809227D872D8004B3BF2 /* cardFlippersTests */,
+				CD24809C27D872D8004B3BF2 /* cardFlippersUITests */,
+				CD24807A27D872B0004B3BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD24807A27D872B0004B3BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD24807927D872B0004B3BF2 /* cardFlippers.app */,
+				CD24808F27D872D8004B3BF2 /* cardFlippersTests.xctest */,
+				CD24809927D872D8004B3BF2 /* cardFlippersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD24807B27D872B0004B3BF2 /* cardFlippers */ = {
+			isa = PBXGroup;
+			children = (
+				CD24807C27D872B0004B3BF2 /* AppDelegate.swift */,
+				CD24807E27D872B0004B3BF2 /* SceneDelegate.swift */,
+				CD24808027D872B0004B3BF2 /* ViewController.swift */,
+				CD24808227D872B0004B3BF2 /* Main.storyboard */,
+				CD24808527D872D6004B3BF2 /* Assets.xcassets */,
+				CD24808727D872D6004B3BF2 /* LaunchScreen.storyboard */,
+				CD24808A27D872D6004B3BF2 /* Info.plist */,
+			);
+			path = cardFlippers;
+			sourceTree = "<group>";
+		};
+		CD24809227D872D8004B3BF2 /* cardFlippersTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD24809327D872D8004B3BF2 /* cardFlippersTests.swift */,
+			);
+			path = cardFlippersTests;
+			sourceTree = "<group>";
+		};
+		CD24809C27D872D8004B3BF2 /* cardFlippersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD24809D27D872D8004B3BF2 /* cardFlippersUITests.swift */,
+				CD24809F27D872D8004B3BF2 /* cardFlippersUITestsLaunchTests.swift */,
+			);
+			path = cardFlippersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD24807827D872B0004B3BF2 /* cardFlippers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2480A327D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippers" */;
+			buildPhases = (
+				CD24807527D872B0004B3BF2 /* Sources */,
+				CD24807627D872B0004B3BF2 /* Frameworks */,
+				CD24807727D872B0004B3BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardFlippers;
+			productName = cardFlippers;
+			productReference = CD24807927D872B0004B3BF2 /* cardFlippers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD24808E27D872D8004B3BF2 /* cardFlippersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2480A627D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippersTests" */;
+			buildPhases = (
+				CD24808B27D872D8004B3BF2 /* Sources */,
+				CD24808C27D872D8004B3BF2 /* Frameworks */,
+				CD24808D27D872D8004B3BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD24809127D872D8004B3BF2 /* PBXTargetDependency */,
+			);
+			name = cardFlippersTests;
+			productName = cardFlippersTests;
+			productReference = CD24808F27D872D8004B3BF2 /* cardFlippersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD24809827D872D8004B3BF2 /* cardFlippersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2480A927D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippersUITests" */;
+			buildPhases = (
+				CD24809527D872D8004B3BF2 /* Sources */,
+				CD24809627D872D8004B3BF2 /* Frameworks */,
+				CD24809727D872D8004B3BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD24809B27D872D8004B3BF2 /* PBXTargetDependency */,
+			);
+			name = cardFlippersUITests;
+			productName = cardFlippersUITests;
+			productReference = CD24809927D872D8004B3BF2 /* cardFlippersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD24807127D872B0004B3BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CD24807827D872B0004B3BF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CD24808E27D872D8004B3BF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD24807827D872B0004B3BF2;
+					};
+					CD24809827D872D8004B3BF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD24807827D872B0004B3BF2;
+					};
+				};
+			};
+			buildConfigurationList = CD24807427D872B0004B3BF2 /* Build configuration list for PBXProject "cardFlippers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD24807027D872B0004B3BF2;
+			productRefGroup = CD24807A27D872B0004B3BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD24807827D872B0004B3BF2 /* cardFlippers */,
+				CD24808E27D872D8004B3BF2 /* cardFlippersTests */,
+				CD24809827D872D8004B3BF2 /* cardFlippersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD24807727D872B0004B3BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24808927D872D6004B3BF2 /* LaunchScreen.storyboard in Resources */,
+				CD24808627D872D6004B3BF2 /* Assets.xcassets in Resources */,
+				CD24808427D872B0004B3BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24808D27D872D8004B3BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24809727D872D8004B3BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD24807527D872B0004B3BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24808127D872B0004B3BF2 /* ViewController.swift in Sources */,
+				CD24807D27D872B0004B3BF2 /* AppDelegate.swift in Sources */,
+				CD24807F27D872B0004B3BF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24808B27D872D8004B3BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24809427D872D8004B3BF2 /* cardFlippersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD24809527D872D8004B3BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24809E27D872D8004B3BF2 /* cardFlippersUITests.swift in Sources */,
+				CD2480A027D872D8004B3BF2 /* cardFlippersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD24809127D872D8004B3BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD24807827D872B0004B3BF2 /* cardFlippers */;
+			targetProxy = CD24809027D872D8004B3BF2 /* PBXContainerItemProxy */;
+		};
+		CD24809B27D872D8004B3BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD24807827D872B0004B3BF2 /* cardFlippers */;
+			targetProxy = CD24809A27D872D8004B3BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD24808227D872B0004B3BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD24808327D872B0004B3BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD24808727D872D6004B3BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD24808827D872D6004B3BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2480A127D872D8004B3BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD2480A227D872D8004B3BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2480A427D872D8004B3BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cardFlippers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2480A527D872D8004B3BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cardFlippers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD2480A727D872D8004B3BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardFlippers.app/cardFlippers";
+			};
+			name = Debug;
+		};
+		CD2480A827D872D8004B3BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardFlippers.app/cardFlippers";
+			};
+			name = Release;
+		};
+		CD2480AA27D872D8004B3BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardFlippers;
+			};
+			name = Debug;
+		};
+		CD2480AB27D872D8004B3BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.cardFlippersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardFlippers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD24807427D872B0004B3BF2 /* Build configuration list for PBXProject "cardFlippers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2480A127D872D8004B3BF2 /* Debug */,
+				CD2480A227D872D8004B3BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2480A327D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2480A427D872D8004B3BF2 /* Debug */,
+				CD2480A527D872D8004B3BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2480A627D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2480A727D872D8004B3BF2 /* Debug */,
+				CD2480A827D872D8004B3BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2480A927D872D8004B3BF2 /* Build configuration list for PBXNativeTarget "cardFlippersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2480AA27D872D8004B3BF2 /* Debug */,
+				CD2480AB27D872D8004B3BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD24807127D872B0004B3BF2 /* Project object */;
+}
